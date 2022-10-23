@@ -6,7 +6,7 @@ log-level: info
 external-controller: :9090
 ipv6: true
 dns:
-  enabled: tru
+  enabled: true
   ipv6: true
   nameserver:
     - 119.29.29.29
