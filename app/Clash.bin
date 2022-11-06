@@ -17,7 +17,7 @@ dns:
     - "[2400:3200::1]:53"
 proxies:
   - {name: 🇨🇦 CA-V6, server: "2607:5300:60:3b66::1ea", port: 57263, type: ss, cipher: aes-256-gcm, password: p4415NzIdl, udp: true}
-  - {name: 🇬🇧 CF-UK丨优选, server: cf.steinsgate.tk, port: 80, type: vmess, uuid: f9c24248-e2cd-4404-9316-f9c84a4aca53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cache, headers: {Host: cf.steinsgate.tk}}, udp: true}
+  - {name: 🇬🇧 CF-UK丨优选, server: cf.steinsgate.tk, port: 80, type: vmess, uuid: f9c24248-e2cd-4404-9316-f9c84a4aca53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cache, headers: {Host: cf-uk.sodayo.ml}}, udp: true}
   - {name: 🇬🇧 CF-UK, server: cf-uk.sodayo.ml, port: 80, type: vmess, uuid: f9c24248-e2cd-4404-9316-f9c84a4aca53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cache, headers: {Host: cf-uk.sodayo.ml}}, udp: true}
   - {name: 🇺🇸 GC-US, server: gc.sodayo.ml, port: 80, type: vmess, uuid: d8805ac1-61ad-4e73-b30e-99fe21e35fc3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cache, headers: {Host: gc.sodayo.ml}}, udp: true}
 proxy-groups:
